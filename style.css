@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+img{
+    width: 2%;
+    height: 2%;
+}
+body{
+    
+    
+}
+header{
+    size: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+}
+.Navbar{
+    margin: 10px;
+}
+
+input{
+    background-color: white;
+    width: 50%;
+    height: 40%;
+    color:white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;}
+
+ul, li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.results {
+font-size: small;
+margin-top: 10px;
+}
+.h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+button{
+    background: #2F4D47;
+    width: 100px;
+    height: 50px;
+    color:white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    }
+    .button:hover{
+        background-color: rgb(140, 240, 140);
+        
+    }
+ol ,li , .overview {
+    display: flex;
+    flex-direction: row;
+}
+.news{
+    margin-left: 5%;
+}
+ol , li{
+    justify-content: space-between;
+    margin-right: 26px;
+}
+.image{
+    display: flex;
+    width: 5%;
+    height: 10%;
+}
+hr{
+    padding-top:8px;
+    border-bottom:1px solid rgba(214,249,232,0.05);
+}
+
+table, tr , td{
+    justify-content: space-around;
+    height: 90%;
+    width: 90%;    
+}
+
+.Stats{
+    background: #2F4D47;
+    height: 20%; 
+    width: 20% ;
+}
+.Age{
+    background: #2F4D47;
+    margin: 10px;
+    height: 10vh; 
+    width: 8% ;    
+}
+.height{
+    background: #2F4D47;
+    margin: 10px;
+    height: 40%; 
+    width: 10% ; 
+}
+.flex{
+    display: flex;
+    margin-right: 60px;
+    padding: 20px;
+}
+.latest{
+    width: 5%;
+    height: 12vh;
+
+}
+.first{
+    width: 10%;
+    height: 40vh;
+}
+.Logo{
+    margin: 0;
+    width: 20px;
+    height: 3vh;
+}
+
+.transfer {
+    margin: 0;
+    background: #2F4D47;
+    display: flex;
+    flex-direction: row;
+}
+section{
+    background-color: currentColor;
+    display: block;  
+}
+.top-stories{
+    display: inline-flex;
+    flex-direction: row;
+}
