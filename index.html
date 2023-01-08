@@ -4,316 +4,421 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instagram Clone</title>
+    <title>Google clone</title>
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/dcd44e3a76.js"
       crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="">
-      <div class="logo">
-        <img src="./Images/images.png" alt="Instagram" />
-      </div>
-      <div class="mavicon">
-        <div class="flex-direction">
-          <a href="#">
-            <i class="fa-solid fa-house"></i>
-            <p>Home</p>
-          </a>
-        </div>
-        <div class="flex-direction">
-          <a href="#">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <p>Search</p>
-          </a>
-        </div>
-        <div class="flex-direction">
-          <a href="#">
-            <i class="fa-regular fa-compass"></i>
-            <p>Explore</p>
-          </a>
-        </div>
-        <div class="flex-direction">
-          <a href="#">
-            <i class="fa-brands fa-facebook-messenger"></i>
-            <p>Messages</p>
-          </a>
-        </div>
-        <div class="flex-direction">
-          <a href="#">
-            <i class="fa-regular fa-heart"></i>
-            <p>Notification</p>
-          </a>
-        </div>
-        <div class="flex-direction">
-          <a href="">
-            <i class="fa-regular fa-square-plus"></i>
-            <p>Create</p>
-          </a>
-        </div>
-        <div class="flex-direction">
-          <a href="#">
-            <img
-              class="profile"
-              src="./Images/my profile.jpg"alt="Profile" />
-            <p>Profile</p>
-          </a>
-        </div>
-        <div class="flex-direction More">
-          <a href="#">
-            <i class="fa-solid fa-bars"></i>
-            <p>More</p>
-          </a>
-        </div>
-      </div>
-    </nav>
-<!-- Stories -->
-<main>
-<section>
-  <div class="Center">
-<div class="Story">
-          <div class="status">
-            <a href="#"><img src="./Images/crocs.jpg" alt="crocs"></a>
-            <p>Crocs nigeria</p>
-        </div>
-        <div class="status">
-        <a href="#"> <img src="./Images/bisiola.jpg" alt="bisiola"></a>
-        <p>iambisola</p>
-          </div>
-          <div class="status">
-          <a href="#">  <img src="./Images/lami cooks.jpg" alt=""></a>
-          <p><p>lamicooks</p></p> 
-          </div >
-        <div class="status">
-          <a href="#"> <img src="./Images/jemimaosunde.jpg" alt=""></a>
-          <p>jemimaosunde</p>
-          </div>
-          <div class="status">
-          <a href="#">  <img src="./Images/Enioluwa.jpg" alt=""></a> 
-          <p>Enioluwaoflagos</p>
-          </div>
-        </div>
-        <div class="Post">
-          <div class="Post-title">
-            <div class="post-left">
-            <div class="image">
-              <img class="profile" src="Images/amalato sure.jpg" alt="" width="32" height="32">
+    <header>
+      <nav class="Navbar">
+        <img src="./Assets/googlelogo_color_92x36dp.png" alt="Google" class="googlelogo" />
+        <input type="search" placeholder="Lionel Messi" class="search" />
+        <i class="fa-regular fa-microphone"></i>
+        <img
+          class="camera"
+          src="./Assets/camera.svg"
+          alt="scan"
+          width="10px"
+          height="10px" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-gear"></i>
+        <i class="fa-solid fa-braille"></i>
+      </nav>
+    </header>
+
+    <div>
+        <ul>
+          <li><div class="Menu">
+            <div class="flex-direction">
+              <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <p>All</p>
+              </a>
+            </li>
+          <li>
+            <div class="flex-direction">
+              <a href="#">
+                <i class="fa-thin fa-newspaper"></i>
+                <p>News</p>
+          </li>
+          <li>
+            <div class="flex-direction">
+              <a href="#">
+                <i class="fa-regular fa-image"></i>
+                <p>Images</p>
+              </a>
             </div>
-            <div class="details">
-              <p class="name"> Amalatosure</p>
-              <p class="location"> Lagos</p>
+          </li>
+          <li>
+            <div class="flex-direction">
+              <a href="#">
+                <i class="fa-solid fa-circle-play"></i>
+                <p>Videos</p>
+              </a>
             </div>
-          </div> 
-          <div class="post-right">
-             <i class="fas fa-ellipsis-h"></i>
+          </li>
+          <li> <div class="flex-direction">
+            <a href="#">
+              <i class="fa-solid fa-ellipsis-vertical"></i>
+              <p>More</p>
+            </a>
           </div>
-
-          <div class="post-content">
-            <img src="./Images/Amalato sure 2.jpg" alt="" width="400px"  height="600px">
-          </div>
-          <div class="post-footer">
-            <div class="like-share-comment">
-              
-              <i class="fa-light fa-comment"></i>
-              <i class="fa-thin fa-paper-plane"></i>
-            </div>
-            <div class="save">
-               <i class="fa-light fa-bookmark"></i>
-            </div> 
-          </div>
-          </div>
-         <div class="post-footer-content">
-            <p class="likes">100likes</p> 
-            <p class="name">jay.oluwatosin  <span>Please subcribe</span></p>
-            <p class="coments">View all 10 commnts</p>
-            <p class="posting-time">23hours ago</p>
-         </div>
-
-         <div class="Add-commments">
-          <div class="left-side">
-            <i class="far fa-smile-beam"></i>
-            <input type="text" placeholder="Add a comment"/>
-          </div>
-          <div class="right-side">
-            <p>Post</p>
-          </div>
-
-         </div>
+        </li>
+          <li>
+            <div class="flex-direction">
+              <a href="">
+                <i class="fa-regular fa-square-plus"></i>
+                <p class="tools">Tools</p>
+              </a>
+          </li>
+        </ul>
+          <hr />
         </div>
       </div>
-         <div>
-      <div class="Post">
-        <div class="Post-title">
-          <div class="post-left">
-          <div class="image">
-            <img class="profile" src="Images/amazincareer.jpg" alt="" width="32" height="32">
-          </div>
-          <div class="details">
-            <p class="name"> Amazing Career</p>
-            <p class="location"> sponsored</p>
-          </div>
-        </div> 
-        <div class="post-right">
-           <i class="fas fa-ellipsis-h"></i>
-        </div>
-
-        <div class="post-content">
-          <img src="Images/amazingcareer.jpg" alt="" width="400px"  height="600px">
-        </div>
-        <div class="post-footer">
-          <div class="like-share-comment">
-            
-            <i class="fa-light fa-comment"></i>
-            <i class="fa-thin fa-paper-plane"></i>
-          </div>
-          <div class="save">
-             <i class="fa-light fa-bookmark"></i>
-          </div> 
-        </div>
-        </div>
-       <div class="post-footer-content">
-          <p class="likes">500likes</p> 
-          <p class="name">Amazing Career  <span>Please subcribe</span></p>
-          <p class="coments">View all 10 commnts</p>
-          <p class="posting-time">23hours ago</p>
-       </div>
-
-       <div class="Add-commments">
-        <div class="left-side">
-          <i class="far fa-smile-beam"></i>
-          <input type="text" placeholder="Add a comment"/>
-        </div>
-        <div class="right-side">
-          <p>Post</p>
-        </div>
-
-       </div>
-      </div>   
-    
     </div>
-   
-
-    <div class="Post">
-      <div class="Post-title">
-        <div class="post-left">
-        <div class="image">
-          <img class="profile" src="Images/Enioluwa.jpg" alt="" width="32" height="32">
-        </div>
-        <div class="details">
-          <p class="name"> Enioluwaoflagos</p>
-          <p class="location"> Lagos</p>
-        </div>
-      </div> 
-      <div class="post-right">
-         <i class="fas fa-ellipsis-h"></i>
+ 
+    <div class="">
+      <div class="results">
+        <p>About 167,000,000 results (0.73 seconds)</p>
       </div>
-
-      <div class="post-content">
-        <img src="./Images/Enioluwa.PNG" alt="" width="400px"  height="600px">
-      </div>
-      <div class="post-footer">
-        <div class="like-share-comment">
-          
-          <i class="fa-light fa-comment"></i>
-          <i class="fa-thin fa-paper-plane"></i>
-        </div>
-        <div class="save">
-           <i class="fa-light fa-bookmark"></i>
-        </div> 
-      </div>
-      </div>
-     <div class="post-footer-content">
-        <p class="likes">1k likes</p> 
-        <p class="name">Enioluwa <span>Please subcribe</span></p>
-        <p class="coments">View all 10 commnts</p>
-        <p class="posting-time">23hours ago</p>
-     </div>
-
-     <div class="Add-commments">
-      <div class="left-side">
-        <i class="far fa-smile-beam"></i>
-        <input type="text" placeholder="Add a comment"/>
-      </div>
-      <div class="right-side">
-        <p>Post</p>
-      </div>
-
-     </div>
-    </div>
-  </div>
-
-  <div class="Post">
-    <div class="Post-title">
-      <div class="post-left">
-      <div class="image">
-        <img class="profile" src="Images/trending bride.jpg" alt="" width="32" height="32">
-      </div>
-      <div class="details">
-        <p class="name"> trending brides</p>
-        <p class="location"> Lagos</p>
-      </div>
-    </div> 
-    <div class="post-right">
-       <i class="fas fa-ellipsis-h"></i>
-    </div>
-
-    <div class="post-content">
-      <img src="Images/Trending wedding.PNG" alt="" width="400px"  height="600px">
-    </div>
-    <div class="post-footer">
-      <div class="like-share-comment">
-        
-        <i class="fa-light fa-comment"></i>
-        <i class="fa-thin fa-paper-plane"></i>
-      </div>
-      <div class="save">
-         <i class="fa-light fa-bookmark"></i>
-      </div> 
-    </div>
-    </div>
-   <div class="post-footer-content">
-      <p class="likes">100likes</p> 
-      <p class="name">Trending bride<span>Please subcribe</span></p>
-      <p class="coments">View all 16commnts</p>
-      <p class="posting-time">23hours ago</p>
-   </div>
-
-   <div class="Add-commments">
-    <div class="left-side">
-      <i class="far fa-smile-beam"></i>
-      <input type="text" placeholder="Add a comment"/>
-    </div>
-    <div class="right-side">
-      <p>Post</p>
-    </div>
-
-   </div>
-  </div>
-</div>
-      </section>  
-
       <div>
-    </main>
-       <section>
-       <!--  </div>
-       <div class="right-side">
-        <div class="profile-title">
-          <div class="profile-left">
-            <div class="image">
-              <img src="./Images/my profile.jpg" alt="">
-            </div>
-            <div class="details">
-              <p class="name">jay.oluwatosin</p>
-              <p class="surname"> Jayeola Tosin Ruth</p>
-            </div>
+      <div class="">
+        <h2 class="h2">Lionel Messi</h2>
+      </div>
+    </div>
+    <div>
+      <div class="overview">
+          <p class="">Footballer<i class="fa-solid fa-ellipsis-vertical"></i> </p>
+          <ol class="news">
+            <li><button>Overview</button></li>
+            <li><button>News</button></li>
+            <li><button>Stats</button></li>
+            <li><button>Videos</button></li>
+          </ol> 
+    </div>
+    </div>
+    <div class="wrapper1">
+      <div class="image">
+        <img  class="image" src="./Assets/first.jpg" alt="Messi" />
+        <table>
+          <tr><td><img class="latest" src="./Assets/second.jpg" alt="second"/></td></td>
+            <tr><td><img class="latest" src="./Assets/third.jpg" alt="" /></td></tr>
+      </tr>
+      </table>
+      </div>
+      <section class="container1">
+       <div class="flex">
+      <div class="Stats">
+       
+        <table>
+          <tr>
+            <th>Stats</th>
+          </tr>
+         
+          <tr>
+            <h2>
+            <td>World Cup </td>
+            <td>· Argentina · </td>
+            <td>2022</td>
+            <td> <hr/></td>
+          </h2>
+      <tr>
+        <td>Matches </td>
+        <td>3</td>
+        <hr/>
+      </tr>
+      <tr>
+        <td>Goals </td>
+        <td>2</td>
+        <hr >
+      </tr>
+      <tr>
+        <td>Assists</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Yellow Cards </td>
+        <td>0</td>
+        
+      </tr>
+      </tr>
+      </table>
+      </div>
+      <div class="Age">
+        <table>
+          <tr>
+        <th>Age</th>
+      </tr>
+        <div>
+          <tr><td>35 year old</td></tr>
+          <tr><td>24 June 1987</td></tr>
+        </div>
+      </table>
+       
+       </div>
+        <div class="height">
+        <table>
+          <tr>
+        <th><h2>height</h2></th>
+      </tr>
+        <div>
+          <tr><td><p>1.69m</p></td></tr>
+        </div>
+       </table> 
+       <div class="transfer">
+        <!-- <div> -->
+        <img   class="Logo" src="./Assets/mirror.png" alt=""><small>Mirror</small>
+        <p >Lionel Messi- <br>  Latest news, transfer- <br> the...</p>
+      <!-- </div> -->
+        <img  class="latest"   src="./Assets/images(1).jpg" alt="" />
+      </div>
+      </div>
+        
+    </section> 
+    
+      <div class="About">
+        <div>
+          <a href="#">https://en.wikipedia.org/wiki/Lionel_Messi</a>
+          <a href="#"><h2>Lionel Messi- Wikipedia</h2></a>
+          <p>
+            21 hours ago- <em>Lionel</em> Andrés <em>Messi</em> Also known as
+            Leo Messi,<br />
+            is an Argentine professional footballer who plays as a forward for
+            Ligue 1 club Paris Saint-Germain and ...
+          </p>
+          <div>
+            <p>2004-2021 <a href="#">Barcelona</a></p>
+            <p>Number :30</p>
           </div>
-          <div class="profile-right">
-            <p>Switch</p>
+         
+          <div>
+            <p>2021-: <a href="#"> Paris Saint-Germain</a></p>
+            <p>Positions: <a href="#">Forward </a></p>
+          </div>
+          <div>
+            <a href="#">Early life . Club Career </a>
+          </div>
+          <div>
+            <h2>Top Stories <i class="fa-regular fa-chevron-right"></i> </h2>
+            <h3>News about Lionel Messi </h3>
+            <hr>
+            <div class="parent">
+            <div class="top-stories">
+              <div> 
+              <img  class="canelo" src="./Assets/canelo.jpg" alt="">
+              <img class="Logo" src="./Assets/marca.png" alt=""><small>Marca</small>
+            <p><a href="#">Canelo Alvarez vs. Lionel Messi: Argentine <br> Striker refuses to apologize to Mexican...</a></p>
+              <small>1 day ago</small>
+              <hr> 
+              <img  class="Logo" src="./Assets/90mins.png" alt=""><small>90mins</small>
+              <p></p>
+              <img class="image"  src="./Assets/90 mins 2.jpg" alt="">
+              <a href="#">Robert Lawadowski reveals <br> Lionel Messi conversation <br> during World Cup clash</a>
+              <small>2 hours ago</small>
+      
+            </div>  
+            <hr>
+            <div class="top-stories">
+              <div >
+              
+                <img  class="Logo" src="./Assets/sky sport.jpg" alt=""/><small>sky sport</small>
+                <p></p>
+                <a href="#">Lionel Messi fuelled by <br> Argentina destiny as Didier <br>
+                Descamps costs France...</a>
+                <img class="image" src="./Assets/sky sport 2.jpg" alt="">
+                <small>1 Day ago</small>
+                <hr>
+                <img  class="Logo" src="./Assets/daily sport.jpg" alt=""><small>Daily Sport</small>
+               <p></p> <a href="#">World Cup: Luka Modric <br> names with greatest player <br> ever</a>
+                <p>7 hours ago</p>
+                <img class="image" src="./Assets/daily sport 2.jpg" alt="">
+                <hr>
+                <img  class="Logo" src="./Assets/goal.png" alt=""><small>Goal com</small>
+                 <p></p><a href="#">Lewandoski reveals what <br> He whispered in Messi's ear <br> after clashing with Argentin</a>
+                 <small> 2 hours ago</small>
+                 <img class="image" src="./Assets/goal 2.jpg" alt="">
+                
+              </div>
+              </div>
+              <hr>
+            </div>
+               
+             <div class="parent">
+              <div class="known">
+               <div> <h3>About</h3></div>
+              <p>
+                Lionel Andrés Messi, also known as Leo Messi, is an  <br> 
+                 Argentine professional footballer who plays as a  <br>
+                 forward for Ligue 1 club Paris Saint-Germain <br> 
+                  and captains the Argentina national team. <a href="#">Wikipedia</a>
+                  <br><br>
+                  Born: 24 June 1987 (age 35 years),<a href="#"> Rosario, Argentina</a> <br>
+                  Current teams: <a href="#"> Argentina national football team</a> (#10 / <br>
+                   Forward), <a href="#"> Paris Saint-Germain F.C.</a> (#30 / Forward) <br> <br>
+
+                 Height: 1.69 m <br> <br>
+                 Spouse: <a href="#"> Antonela Roccuzzo</a> (m. 2017) <br> <br>
+                 Salary: 41 million USD (2022)<br><br>
+                 Shoe size: 10<br><br>
+                 Children: <a href="#"> Mateo Messi Roccuzzo, Thiago Messi Roccuzzo, Ciro Messi Roccuzzo</a>
+                 <br>    
+                  </p>
+                  <div>
+               <button><i class="fa-sharp fa-solid fa-shield-check"></i> Claim this knowledge panel</button> <h6>Feedback</h6> 
+              </div>
+               <hr> <br>
+                <div>
+               <b>Stats  <i class="fa-regular fa-circle-chevron-right"></i></b>
+              <h5>Argentina</h5>
+              <p>League                 Matches      Goals  </p>
+              <hr>
+              <p>World Cup                3             2  </p>
+              <p> 2022</p>
+              <hr/>
+              <p>World Cup Qualifiers      15           7  </p>
+              <p>2020-22</p>
+              <hr>
+              <p>Copa América               7            4  </p>
+              <p> 2021</p>
+              <hr/> 
+            </div> 
+            <div>
+                <h3>Profile</h3>
+                <table>
+                  <tr>
+                    <th> <img src="./Assets/download.png" alt="">  </th>
+                    <th> <img src="./Assets/youtube.png" alt=""> </th>
+                    <th> <img src="./Assets/facebook.png" alt=""> </th>
+                  </tr>
+                  <tr>
+                    <td> <span> Instagram</span> </td>
+                    <td><span>Youtube</span></td>
+                    <td><span>Facebook</span></td>
+                  </tr>
+                </table>
+              </div>
+                <h3>People also search for</h3>
+                <table>
+                  <tr>
+                    <td> <img src="./Assets/images(7).jpg" alt=""> </td>
+                    <td> <img src="./Assets/neymar.jpg" alt=""> </td>
+                    <td> <img src="./Assets/kevin.jpg" alt=""> </td>
+                    <td> <img src="./Assets/Mbappe.jpg" alt=""> </td>
+                  </tr>
+                  <tr>
+                    <td> <a href="#">Cristino Ronaldo</a> </td>
+                    <td><a href="#">Neymar </a></td>
+                    <td><a href="#">Kevin De Brune Trending</a> </td>
+                    <td><a href="#">Kylian Mbappe</a> </td>
+                  </tr>
+                </table> 
+
+                <button><a href="#">See More <i class="fa-regular fa-arrow-right"></i></a></button>
+             </div> 
+          </div>
           </div>
         </div>
-      </section>
-       </div>
-    </body>
-
-    </html> -->
+      </div>
+      <div>
+           <p>Also in the News</p>
+                <div >
+                  <img  class="Logo" src="./Assets/mirror.png" alt="">
+                  <p>The Mirror</p>
+                  <a href="#">Xavi makes Lionel Messi <br> transfer U-turn after <br>  Barcelona President's "bad...</a> <br>
+                  <img class="xavi" src="./Assets/mirror 2.jpg" alt=""><br>
+                  <small>1 day ago</small>
+                    </div>
+                  <hr>
+                  <img  class="Logo" src="./Assets/daily mail.png" alt="">
+                  <p>Daily Mail</p>
+                  <a href="#">Reece James is critised on <br> Twitter for choosing Cristino <br> Ronaldo ahead of Lionel...</a> <br>
+                  <img class="xavi" src="./Assets/daily mail 2.jpg" alt=""> <br>
+                  <small>1 day ago</small>
+                  <hr>
+                </div>
+        <span>
+          <a href="https://www.forbes.com/profile/lionel-messi/">https://www.forbes.com/profile/lionel-messi/</a>
+          <a href="#"><h3>Lionel Messi- Forbes</h3></a>
+          <p> 4 hours ago - 1 Lionel Messi on the 2022 The World's Highest-Paid Athletes - Messi <br>
+              claimed the Ballon d'Or as the world's best soccer player for a record seventh time. </p>
+        </span>
+        <span>
+          <a href="https://www.mirror.co.uk/all-about/lionel-messi">https://www.mirror.co.uk/all-about/lionel-messi</a>
+          <a href="#"><h3>Lionel Messi - Latest news, transfers - The Mirror</h3></a>
+          <p> 10 hours ago — Widely regarded as the greatest player in history, the unassuming <br>
+             Argentina forward has become a Barcelona legend winning a succession of La Liga <br>
+              and ... </p>
+        </span>
+        <span>
+          <a href="https://www.instagram.com/leomessi/?hl=en">https://www.instagram.com >leomessi . Translate this page</a>
+          <a href="#"><h3>Leo Messi (@leomessi) . Instagram photos and Videos</h3></a>
+          <p> Bienvenidos a la cuenta oficial de Instagram de Leo Messi / Welcome to the official Leo ... <br>
+             Experience the big tournament with Lionel Messi and @Sorare. </p>
+        </span>
+        <span>
+          <a href="https://www.fcbarcelona.com/en/football/first-team/players/4974/lionel-messi">https://www.fcbarcelona.com/en/football/first-team/players/4974/lionel-messi</a>
+          <a href="#"><h3>Lionel Messi - official Website of FC Barcelona</h3></a>
+          <p> Key Performance Stats Lionel Messi ; Goals · 672 ; Assists · 288 ; Shot Accuracy · 47% ; <br>
+             Chances Created · 409 ; Barça Appearances · 778. </p>
+        </span>
+        <span>
+          <a href="https://www.transfermarkt.com/lionel-messi/profil/spieler/28003">https://www.transfermarkt.com/lionel-messi/profil/spieler/28003</a>
+          <a href="#"><h3>Lionel Messi - Player Profile | transfermarkt</h3></a>
+          <p>Lionel Messi, 35, from Argentina ➤ Paris Saint-Germain, since 2021 ➤ Right Winger ➤ Market <br>
+             value: €50.00m ➤ * Jun 24, 1987 in Rosario, Argentina.</p>
+        </span>
+        <span>
+          <a href="https://fbref.com/en/players/d70ce98e/Lionel-Messi">https://fbref.com > FB Homepage > players</a>
+          <a href="#"><h3>Lionel Messi Stats, Goals , Records , Assists , Cups and more</h3></a>
+          <p>Check out the latest domestic and international stats, match logs, goals, height, weight and more <br>
+             for Lionel Messi playing for FC Barcelona, Argentina men's ...</p>
+        </span>
+        <span>
+          <a href="https://www.britannica.com/biography/Lionel-Messi">https://www.britannica.com >...> soccer </a>
+          <a href="#"><h3>Lionel Messi | Biography , Team , Barcelona , PSG, & Facts</h3></a>
+          <p>22 Nov 2022 — Lionel Messi, in full Lionel Andrés Messi, also called Leo Messi, (born June 24, <br>
+             1987, Rosario, Argentina), Argentine-born football (soccer) ...
+            Date of birth: June 24, 1987</p>
+        </span>
+        <span>
+          <a href="https://www.dailymail.co.uk/sport/football/article-11492115/Robert-Lewandowski-reveals-told-Lionel-Messi-frosty-moment.html">https://www.dailymail.co.uk >sport >article-11492115 </a>
+          <a href="#"><h3>Robert Lewandowski reveals what he told Lionel Messi after...</h3></a>
+          <p>17 hours ago — Robert Lewandowski has shared what he told Lionel Messi at full-time after <br>
+             the pair shared a frosty moment on the pitch during Argentina's ...</p>
+        </span>
+      </div>
+      <div>
+        <h3>Videos   <i class="fa-regular fa-circle-chevron-right"></i> </h3>
+          <hr/>
+          <img src="./Assets/mqdefault.jpg" alt="" > <i class="fa-solid fa-circle-play"></i>
+          <a href="#">All 8 Hat-Trick Lionel Messi scored for Argentina</a>
+          <p>Youtube .  Vanemas2</p>
+          <small>2 days ago</small>
+          <hr/>
+          <img src="./Assets/mqdefault(1).jpg" alt="" > <i class="fa-solid fa-circle-play"></i>
+          <a href="#">Lionel Messi and Argentina ADVANCE along with Poland ...</a>
+          <p>Youtube .  ESPN FC</p>
+          <small>1 days ago</small>
+          <hr/>
+          <img src="Assets/mqdefault(2).jpg" alt="" > <i class="fa-solid fa-circle-play"></i>
+          <a href="#">Should Lionel Messi stop taking Argentina's penalty kicks</a>
+          <p>Youtube .  ESPN FC</p>
+          <small>1 days ago</small>
+          <hr/>
+          <button> View all <hr/></button>
+      </div>
+      <div>
+        <span>
+          <a href="https://www.whoscored.com/Players/11119/Show/Lionel-Messi">https://www.whoscored.com >players >Shows > Lionel... </a>
+          <a href="#"><h3>Lionel Messi Football Statistics | Whoscores.com </h3></a>
+          <p>Lionel Messi statistics - 35 years_old Paris Saint-Germain Attacking Midfielder (Centre, Right) / Forward. Check out his latest detailed stats including ...
+            <p> Current Team: <a href="#">Paris Saint-Germain </a>           Positions: Attacking Midfielder (Centre, Right), ...</p> 
+            Shirt Number: 30                                 Age: 35 years old (24-06-1987)</p>
+        </span>
+      </div>
+    </div>
+     <footer></footer> 
+  </body>
+</html>

@@ -2,161 +2,183 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    flex-wrap: wrap;
+}
+img{
+    width: 25%;
+    height: 16vh;
 }
 body{
+   background-color: whitesmoke; 
+   color:black;
+   text-decoration: solid white;   
+}
+header{
+    size: 50px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
-    background-color: #fafafa;
-}
-nav{
-    background-color: white;
-    padding-left: 25px;
-    border-right: 1px solid #b7b7b7;
-    width: 20%;
-    height: 100vh;
-    max-height: 100vh;
-}
-.flex-direction >a {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    text-decoration: none;
-    color: black;
-    margin-bottom: 40px;
-    font-size: 18px;
-    padding: 10px 0;
-}
-.logo img{
-    height: 60px;
-    width: 150px;
-    margin: 80px , 0px ;
-}
-.More{
-    margin-top: 150px;
-}
-.flex-direction > a:hover{
-    background-color: FAFAFA;
-    border-radius: 10px;
-    padding: 10px ,0px;
-}
-.profile{
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    background-image: linear-gradient();
-    border: 3px solid #f5a0bb;
-    object-fit: cover;
-}
-/* main{
-    width: 100%;
-    height: 100vh; */
-}
-section{
-    padding-left: 50px;
-    padding: 30px 18% ;
-    background-color: #fafafa;
-    display: flex;
-    flex-direction: row;
-}
-.Center{
-    width: 100%;
-    align-items: center;
-    margin: 5rem;
-    margin-top: 10px;
-}
-.Story{
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    padding: 16px;
-    background-color: #fafafa;
-    border: 1px solid rgb(2219,219,219,1);
-    border-radius: 3px;
-}
-.Story .status{
-   width: 17%; 
-}
-.Story .status a img{
-    width: 56px;n
-    height: 56px;
-    border-radius: 50%;
-    border: 2px solid #ca3d69;
-    padding: 1px;
-    object-fit: cover;
-}
-.Story .status p{
-    width: 90%;
-    overflow: hidden;
-    white-space:nowrap;
-    text-overflow: ellipsis;
-    color: #242424;
-}
-.Post{
-    margin: 25px 0;
-    background-color: white;
-    border: 1px solid rgb(219,219,219,1);
-    border-radius: 3px; 
-}
-.Post .Post-title{
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
-} 
-.Post .Post-title .post-left{
-    display: flex;
-    align-items: center; 
 }
-.Post .Post-title .post-left .image {
-margin-left: 15px;
+.camera{
+    height: 10px;
+    width: 10px;
 }
-.Post .Post-title .post-left .image img{
-    border-radius: 50%;
-    object-fit: contain;
-}
-.Post .Post-title .post-left .details .name{
-    padding-bottom: 2px;
-    font-weight: bold;
-}
-.Post .post-footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 16px;
-}
-.Post .post-footer .like-share-comment{
-    font-size: 22px;
-    margin-right: 10px;
-}
-.Post .post-footer .save {
-    font-size: 22px;
-}
-.Post .post-footer .post-footer-content {
-    padding: 0 16px 16px 16px;
-}
-.Post .post-footer .post-footer-content p{
-    margin-bottom: 3px;
-}
-.Post .post-footer .post-footer-content .likes{
-    margin-bottom: 8px;
-}
-.Post .post-footer .post-footer-content .name{
-    font: weight 600;
-}
-.Post .post-footer .post-footer-content span{
-    margin-left: 10px;
-    font-weight: normal;
-}
-.Post .Add-commments {
-padding: 16px;
-border-top: 1px;
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-.right-side{
-    width: 35%;
-    height: 100vh;
-    margin-top: 15px;
+.Navbar{
+    margin: 10px;
     position: fixed;
-    right: 30px;
 }
 
+input{
+    background-color: white;
+    width: 50%;
+    height: 40%;
+    color:white;
+    margin: 50px;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+}
+
+ul, li{
+    display: flex;
+    flex-direction: row;
+}
+.tools{
+    align-items: flex-end;
+}
+.results {
+font-size: small;
+margin-top: 10px;
+}
+.h2{
+    margin-top: 10px;
+    font-size: 30px;
+}
+button{
+    background: #2F4D47;
+    width: 100px;
+    height: 50px;
+    color:white;
+    padding: 5px 5px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: none;
+    }
+    .button:hover{
+        background-color: rgb(140, 240, 140);
+        
+    }
+ol ,li , .overview {
+    display: flex;
+    flex-direction: row;
+}
+.news{
+    margin-left: 5%;
+}
+ol , li{
+    justify-content: space-between;
+    margin-right: 26px;
+}
+.image{
+    width: 45%;
+}
+
+.wrapper1{
+    margin-top: 1rem;
+    display:flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    vertical-align: middle;
+    gap: 10px;
+    width: 100%; 
+}
+
+.Stats{
+    background: #2F4D47;
+    height: 30%; 
+    width: 30% ;
+}
+.Age{
+    background: #2F4D47;
+    margin: 10px;
+    height: 30vh; 
+    width: 10% ;    
+}
+.height{
+    background: #2F4D47;
+    margin: 10px;
+    height: 5%; 
+    width: 15% ; 
+}
+.flex{
+    display: flex;
+    margin-right: 60px;
+    padding: 20px;
+}
+.latest{
+    width: 35%;
+    height: 20vh;
+    display: flex;
+}
+.first{
+    width: 10%;
+    height: 40vh;
+}
+.Logo{
+    margin: 0;
+    width: 20px;
+    height: 3vh;
+}
+
+.transfer {
+    margin: 0;
+    background: #2F4D47;
+    display:flex;
+}
+.top-stories {
+    display: flex;
+    flex-direction: row;
+    flex: 10px; 
+    width: 60%;
+    height: 100vh;
+    vertical-align: middle;
+    gap: 10px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    height: 100vh;
+    gap: 10px;
+}
+a{
+    font-size:large;
+}
+
+@media (min: width(320px)),(max: width(480px)) {
+    width: 100%;
+}
+    
+@media (min: width(481px)),(max: width(768px)) {
+    width: 100%;
+}
+
+ @media (min: width(769px)),(max: width(1024px)) {
+        width: 100%;  
+}
+@media (min: width(1025px)),(max: width(nth)) {
+    width: 100%;  
+}
+.xavi{
+    width: 120px;
+    height: 100px;
+    align-content: flex-end;
+}
+.canelo{
+    width :150px;
+    height: 200px;
+
+}
